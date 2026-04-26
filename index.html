@@ -3,23 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MyHome Mortgage — Your Personal Mortgage Intelligence Hub</title>
-<meta name="description" content="MyHome Mortgage delivers personalized mortgage insights, rate comparisons, and home financing tools to help you make smarter borrowing decisions.">
-<meta name="keywords" content="mortgage rates, home loans, refinancing, mortgage calculator, home buying, personal mortgage, mortgage intelligence">
-<meta name="author" content="MyHome Mortgage — Webworks Media Network">
+<title>{{SITE_NAME}} — {{SITE_TAGLINE}}</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<meta name="keywords" content="{{META_KEYWORDS}}">
+<meta name="author" content="{{SITE_NAME}} — Webworks Media Network">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 <meta name="theme-color" content="#042010">
 <link rel="canonical" href="https://myhome.mortgage/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://myhome.mortgage/">
-<meta property="og:title" content="MyHome Mortgage — Your Personal Mortgage Intelligence Hub">
-<meta property="og:description" content="MyHome Mortgage delivers personalized mortgage insights, rate comparisons, and home financing tools to help you make smarter borrowing decisions.">
+<meta property="og:title" content="{{SITE_NAME}} — {{SITE_TAGLINE}}">
+<meta property="og:description" content="{{META_DESCRIPTION}}">
 <meta property="og:image" content="https://myhome.mortgage/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="MyHome Mortgage — Your Personal Mortgage Intelligence Hub">
-<meta name="twitter:description" content="MyHome Mortgage delivers personalized mortgage insights, rate comparisons, and home financing tools to help you make smarter borrowing decisions.">
+<meta name="twitter:title" content="{{SITE_NAME}} — {{SITE_TAGLINE}}">
+<meta name="twitter:description" content="{{META_DESCRIPTION}}">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"MyHome Mortgage","url":"https://myhome.mortgage","description":"MyHome Mortgage delivers personalized mortgage insights, rate comparisons, and home financing tools to help you make smarter borrowing decisions.","publisher":{"@type":"Organization","name":"MyHome Mortgage","url":"https://myhome.mortgage"}}
+{"@context":"https://schema.org","@type":"WebSite","name":"{{SITE_NAME}}","url":"https://myhome.mortgage","description":"{{META_DESCRIPTION}}","publisher":{"@type":"Organization","name":"{{SITE_NAME}}","url":"https://myhome.mortgage"}}
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
@@ -301,7 +301,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 
 <!-- NAV -->
 <nav>
-  <a href="/" class="nav-logo">myhome<span>.mortgage</span></a>
+  <a href="/" class="nav-logo">{{DOMAIN_DISPLAY}}<span>.mortgage</span></a>
   <div class="nav-links">
     <a href="#content">Articles</a>
     <a href="#tools">Tools</a>
@@ -333,7 +333,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
     <div class="sponsor-tag">Premium Advertising</div>
     <h2 class="sponsor-headline">Your Brand.<br><span class="hl">Their Wealth.</span><br>Right Now.</h2>
     <div class="sponsor-stats">
-      <div class="sp-stat"><span class="n">47K+</span><span class="l">Members</span></div>
+      <div class="sp-stat"><span class="n">{{EMAIL_COUNT}}+</span><span class="l">Members</span></div>
       <div class="sp-stat"><span class="n">94%</span><span class="l">Target Match</span></div>
       <div class="sp-stat"><span class="n">$12</span><span class="l">CPM</span></div>
     </div>
@@ -349,42 +349,42 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 <!-- TICKER -->
 <div class="ticker">
   <div class="ticker-inner">
-    <span class="ticker-item">Fed signals potential rate cuts in Q2 2025 — mortgage markets respond</span>
-    <span class="ticker-item">30-year fixed rates drop to 6.25% this week</span>
-    <span class="ticker-item">First-time buyer programs expanded in 12 states</span>
-    <span class="ticker-item">Refinance applications surge 34% month-over-month</span>
-    <span class="ticker-item">Housing inventory rises — buyer leverage improves</span>
-    <span class="ticker-item">VA loan benefits enhanced for 2025 veterans</span>
-    <span class="ticker-item">Fed signals potential rate cuts in Q2 2025 — mortgage markets respond</span>
-    <span class="ticker-item">30-year fixed rates drop to 6.25% this week</span>
-    <span class="ticker-item">First-time buyer programs expanded in 12 states</span>
-    <span class="ticker-item">Refinance applications surge 34% month-over-month</span>
-    <span class="ticker-item">Housing inventory rises — buyer leverage improves</span>
-    <span class="ticker-item">VA loan benefits enhanced for 2025 veterans</span>
+    <span class="ticker-item">{{TICKER_ITEM1}}</span>
+    <span class="ticker-item">{{TICKER_ITEM2}}</span>
+    <span class="ticker-item">{{TICKER_ITEM3}}</span>
+    <span class="ticker-item">{{TICKER_ITEM4}}</span>
+    <span class="ticker-item">{{TICKER_ITEM5}}</span>
+    <span class="ticker-item">{{TICKER_ITEM6}}</span>
+    <span class="ticker-item">{{TICKER_ITEM1}}</span>
+    <span class="ticker-item">{{TICKER_ITEM2}}</span>
+    <span class="ticker-item">{{TICKER_ITEM3}}</span>
+    <span class="ticker-item">{{TICKER_ITEM4}}</span>
+    <span class="ticker-item">{{TICKER_ITEM5}}</span>
+    <span class="ticker-item">{{TICKER_ITEM6}}</span>
   </div>
 </div>
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-badge">🏠 PERSONAL MORTGAGE INTELLIGENCE</div>
+  <div class="hero-badge">{{NICHE_BADGE}}</div>
   <h1>
-    Smart Mortgage Decisions
-    <span class="line2">Personalized For You</span>
-    Start Right Here
+    {{HERO_LINE1}}
+    <span class="line2">{{HERO_LINE2}}</span>
+    {{HERO_LINE3}}
   </h1>
-  <p class="hero-sub">Get real-time rate intelligence, personalized loan comparisons, and expert guidance tailored to your unique home financing journey. Make confident mortgage decisions with data-driven insights.</p>
+  <p class="hero-sub">{{HERO_SUB}}</p>
   <div class="hero-btns">
-    <a href="#newsletter" class="btn-primary">Calculate Your Rate</a>
-    <a href="#content" class="btn-secondary">Compare Lenders</a>
+    <a href="#newsletter" class="btn-primary">{{CTA_PRIMARY}}</a>
+    <a href="#content" class="btn-secondary">{{CTA_SECONDARY}}</a>
   </div>
 </section>
 
 <!-- STATS -->
 <div class="stats-bar">
-  <div class="stat-item"><span class="stat-num">$2.4B+</span><span class="stat-label">Loans Analyzed</span></div>
-  <div class="stat-item"><span class="stat-num">47K+</span><span class="stat-label">Homeowners Helped</span></div>
-  <div class="stat-item"><span class="stat-num">3.2%</span><span class="stat-label">Avg Rate Savings</span></div>
-  <div class="stat-item"><span class="stat-num">850+</span><span class="stat-label">Lender Partners</span></div>
+  <div class="stat-item"><span class="stat-num">{{STAT1_NUM}}</span><span class="stat-label">{{STAT1_LABEL}}</span></div>
+  <div class="stat-item"><span class="stat-num">{{STAT2_NUM}}</span><span class="stat-label">{{STAT2_LABEL}}</span></div>
+  <div class="stat-item"><span class="stat-num">{{STAT3_NUM}}</span><span class="stat-label">{{STAT3_LABEL}}</span></div>
+  <div class="stat-item"><span class="stat-num">{{STAT4_NUM}}</span><span class="stat-label">{{STAT4_LABEL}}</span></div>
 </div>
 
 <!-- AD BANNER -->
@@ -392,45 +392,45 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
   <div class="ad-content">
     <span class="ad-icon">🌿</span>
     <div class="ad-text">
-      <h4>Lock Your Best Rate Today <span class="ad-badge">SPONSORED</span></h4>
-      <p>Compare 850+ lenders instantly — avg savings of $47K over loan life</p>
+      <h4>{{AD_HEADLINE}} <span class="ad-badge">SPONSORED</span></h4>
+      <p>{{AD_SUBHEADLINE}}</p>
     </div>
   </div>
-  <a href="https://better.com" target="_blank" rel="noopener" class="btn-ad">Get Pre-Approved Free</a>
+  <a href="{{AD_URL}}" target="_blank" rel="noopener" class="btn-ad">{{AD_CTA}}</a>
 </div>
 
 <!-- CONTENT -->
 <section class="content-section" id="content">
-  <div class="section-tag">MORTGAGE INSIGHTS</div>
-  <h2 class="section-title">Master Your Home Financing</h2>
-  <p class="section-sub">Expert analysis and actionable strategies for every stage of your mortgage journey</p>
+  <div class="section-tag">{{CONTENT_LABEL}}</div>
+  <h2 class="section-title">{{CONTENT_TITLE}}</h2>
+  <p class="section-sub">{{CONTENT_SUB}}</p>
   <div class="cards-grid">
-    <div class="article-card" style="background:#0a1628">
+    <div class="article-card" style="background:{{CARD1_BG}}">
       <div class="card-top">
-        <span class="card-icon">📊</span>
-        <div class="card-tag">RATE STRATEGY</div>
-        <h3 class="card-title">7 Rate Lock Strategies That Save $23K+ On Average</h3>
-        <p class="card-desc">Timing your rate lock can save tens of thousands. Learn the insider strategies lenders don't advertise.</p>
+        <span class="card-icon">{{CARD1_ICON}}</span>
+        <div class="card-tag">{{CARD1_TAG}}</div>
+        <h3 class="card-title">{{CARD1_TITLE}}</h3>
+        <p class="card-desc">{{CARD1_DESC}}</p>
       </div>
-      <div class="card-meta"><span>8 min read</span><span>24.7K views</span></div>
+      <div class="card-meta"><span>{{CARD1_READ}}</span><span>{{CARD1_VIEWS}}</span></div>
     </div>
-    <div class="article-card" style="background:#0d1020">
+    <div class="article-card" style="background:{{CARD2_BG}}">
       <div class="card-top">
-        <span class="card-icon">🏡</span>
-        <div class="card-tag">FIRST-TIME BUYERS</div>
-        <h3 class="card-title">2025 First-Time Buyer Programs You're Missing</h3>
-        <p class="card-desc">Down payment assistance, grants, and special rates most buyers never discover until it's too late.</p>
+        <span class="card-icon">{{CARD2_ICON}}</span>
+        <div class="card-tag">{{CARD2_TAG}}</div>
+        <h3 class="card-title">{{CARD2_TITLE}}</h3>
+        <p class="card-desc">{{CARD2_DESC}}</p>
       </div>
-      <div class="card-meta"><span>6 min read</span><span>18.3K views</span></div>
+      <div class="card-meta"><span>{{CARD2_READ}}</span><span>{{CARD2_VIEWS}}</span></div>
     </div>
-    <div class="article-card" style="background:#0a1a12">
+    <div class="article-card" style="background:{{CARD3_BG}}">
       <div class="card-top">
-        <span class="card-icon">💰</span>
-        <div class="card-tag">REFINANCING</div>
-        <h3 class="card-title">When Refinancing Actually Makes Sense in 2025</h3>
-        <p class="card-desc">The break-even math has changed. Our calculator reveals if refinancing saves you money or costs you.</p>
+        <span class="card-icon">{{CARD3_ICON}}</span>
+        <div class="card-tag">{{CARD3_TAG}}</div>
+        <h3 class="card-title">{{CARD3_TITLE}}</h3>
+        <p class="card-desc">{{CARD3_DESC}}</p>
       </div>
-      <div class="card-meta"><span>5 min read</span><span>15.9K views</span></div>
+      <div class="card-meta"><span>{{CARD3_READ}}</span><span>{{CARD3_VIEWS}}</span></div>
     </div>
   </div>
 </section>
@@ -438,24 +438,24 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 <!-- VIDEO -->
 <section class="video-section">
   <div class="video-inner">
-    <div class="section-tag">VIDEO GUIDES</div>
-    <h2 class="section-title">Mortgage Masterclass</h2>
+    <div class="section-tag">{{VIDEO_LABEL}}</div>
+    <h2 class="section-title">{{VIDEO_TITLE}}</h2>
     <div class="video-grid">
       <div class="video-main">
-        <iframe src="https://www.youtube.com/embed/YOUTUBE_PLACEHOLDER_1?autoplay=1&mute=1&rel=0&loop=1&playlist=YOUTUBE_PLACEHOLDER_1&modestbranding=1" allow="autoplay;encrypted-media;picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/{{YOUTUBE_VIDEO_ID}}?autoplay=1&mute=1&rel=0&loop=1&playlist={{YOUTUBE_VIDEO_ID}}&modestbranding=1" allow="autoplay;encrypted-media;picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="video-list">
         <div class="video-item">
           <div class="video-thumb">🌿</div>
-          <div class="video-info"><h4>Understanding ARM vs Fixed Rates</h4><div class="video-meta">12:34 · 89K views</div></div>
+          <div class="video-info"><h4>{{YT2_TITLE}}</h4><div class="video-meta">{{YT2_DURATION}} · {{YT2_VIEWS}}</div></div>
         </div>
         <div class="video-item">
           <div class="video-thumb">💪</div>
-          <div class="video-info"><h4>Pre-Approval Process Explained</h4><div class="video-meta">08:45 · 67K views</div></div>
+          <div class="video-info"><h4>{{YT3_TITLE}}</h4><div class="video-meta">{{YT3_DURATION}} · {{YT3_VIEWS}}</div></div>
         </div>
         <div class="video-item">
           <div class="video-thumb">🏃</div>
-          <div class="video-info"><h4>Closing Costs Breakdown Guide</h4><div class="video-meta">15:22 · 54K views</div></div>
+          <div class="video-info"><h4>{{YT4_TITLE}}</h4><div class="video-meta">{{YT4_DURATION}} · {{YT4_VIEWS}}</div></div>
         </div>
       </div>
     </div>
@@ -468,33 +468,33 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
     <div class="lead-left">
       <div class="lead-badge-wrap">
         <span class="lead-live-dot"></span>
-        <span class="lead-badge-text">FREE RATE ALERT TOOLKIT</span>
+        <span class="lead-badge-text">{{LEAD_BADGE}}</span>
       </div>
-      <h2 class="lead-title">Get Rate Drops Before Everyone Else</h2>
-      <p class="lead-sub">Join 47,000+ homeowners getting personalized rate alerts and mortgage intelligence weekly</p>
+      <h2 class="lead-title">{{LEAD_TITLE}}</h2>
+      <p class="lead-sub">{{LEAD_SUB}}</p>
       <div class="lead-proof">
         <div class="lead-avatars">
           <div class="av">JK</div><div class="av">ML</div><div class="av">SR</div><div class="av">AB</div><div class="av">+</div>
         </div>
         <div class="lead-proof-text">
-          <strong>47K+ finance professionals</strong> already subscribed
+          <strong>{{EMAIL_COUNT}}+ finance professionals</strong> already subscribed
           <span class="lead-rating">★★★★★ 4.9/5</span>
         </div>
       </div>
       <div class="lead-magnets">
-        <div class="lead-magnet"><span class="lm-icon">📱</span><div class="lm-text"><strong>Rate Alert Dashboard</strong><span>Real-time notifications when rates hit your target</span></div><span class="lm-tag">FREE</span></div>
-        <div class="lead-magnet"><span class="lm-icon">📋</span><div class="lm-text"><strong>Pre-Approval Checklist</strong><span>Complete document guide for faster approval</span></div><span class="lm-tag">FREE</span></div>
-        <div class="lead-magnet"><span class="lm-icon">🧮</span><div class="lm-text"><strong>Affordability Calculator</strong><span>Know your true buying power before shopping</span></div><span class="lm-tag">FREE</span></div>
+        <div class="lead-magnet"><span class="lm-icon">{{MAGNET1_ICON}}</span><div class="lm-text"><strong>{{MAGNET1_TITLE}}</strong><span>{{MAGNET1_DESC}}</span></div><span class="lm-tag">FREE</span></div>
+        <div class="lead-magnet"><span class="lm-icon">{{MAGNET2_ICON}}</span><div class="lm-text"><strong>{{MAGNET2_TITLE}}</strong><span>{{MAGNET2_DESC}}</span></div><span class="lm-tag">FREE</span></div>
+        <div class="lead-magnet"><span class="lm-icon">{{MAGNET3_ICON}}</span><div class="lm-text"><strong>{{MAGNET3_TITLE}}</strong><span>{{MAGNET3_DESC}}</span></div><span class="lm-tag">FREE</span></div>
       </div>
     </div>
     <div class="lead-right">
       <div class="lead-form-card">
         <div class="lead-form-header">
           <span class="lead-form-icon">💰</span>
-          <div><h3>Get Instant Access</h3><p>Join 47K+ finance professionals. Unsubscribe anytime.</p></div>
+          <div><h3>Get Instant Access</h3><p>Join {{EMAIL_COUNT}}+ finance professionals. Unsubscribe anytime.</p></div>
         </div>
         <form action="https://formspree.io/f/xvzdyoqr" method="POST" class="lead-form" id="leadForm" onsubmit="handleFormSubmit(event)">
-          <input type="hidden" name="_subject" value="New Health Lead: MyHome Mortgage — myhome.mortgage">
+          <input type="hidden" name="_subject" value="New Health Lead: {{SITE_NAME}} — myhome.mortgage">
           <input type="hidden" name="source" value="myhome.mortgage Health Lead Form">
           <div class="form-group">
             <label for="fname">First Name</label>
@@ -523,7 +523,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
             </label>
           </div>
           <button type="submit" class="btn-lead-submit" id="submitBtn">
-            <span id="btnText">Get My Rate Alerts</span>
+            <span id="btnText">{{LEAD_CTA}}</span>
             <span id="btnLoader" style="display:none">Sending...</span>
           </button>
           <p class="form-trust">🔒 Your information is 100% secure. We never share your financial data.</p>
@@ -531,7 +531,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
         <div class="lead-success" id="leadSuccess" style="display:none">
           <div class="success-icon">✅</div>
           <h3>You're In!</h3>
-          <p>Welcome! Check your inbox for your personalized rate dashboard.</p>
+          <p>{{LEAD_SUCCESS_MSG}}</p>
         </div>
         <div class="lead-urgency"><span class="urgency-dot"></span><span><strong>428 people</strong> joined in the last 24 hours</span></div>
       </div>
@@ -541,16 +541,16 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 
 <!-- TOOLS -->
 <section class="tools-section" id="tools">
-  <div class="section-tag">MORTGAGE TOOLS</div>
-  <h2 class="section-title">Compare & Calculate Instantly</h2>
-  <p class="section-sub">Trusted tools to navigate your home financing with confidence</p>
+  <div class="section-tag">{{TOOLS_LABEL}}</div>
+  <h2 class="section-title">{{TOOLS_TITLE}}</h2>
+  <p class="section-sub">{{TOOLS_SUB}}</p>
   <div class="tools-grid">
-    <a href="https://better.com" target="_blank" rel="noopener" class="tool-card"><span class="tool-icon">🏦</span><div class="tool-info"><div class="tool-name">Better.com</div><div class="tool-desc">Digital-first lender with transparent rates and no origination fees</div><div class="tool-commission">$500 per funded loan</div></div></a>
-    <a href="https://bankrate.com" target="_blank" rel="noopener" class="tool-card"><span class="tool-icon">📊</span><div class="tool-info"><div class="tool-name">Bankrate</div><div class="tool-desc">Compare current rates from hundreds of lenders nationwide</div><div class="tool-commission">$2 per lead</div></div></a>
-    <a href="https://lendingtree.com" target="_blank" rel="noopener" class="tool-card"><span class="tool-icon">🔍</span><div class="tool-info"><div class="tool-name">LendingTree</div><div class="tool-desc">Get multiple loan offers with one simple application</div><div class="tool-commission">$35 per qualified lead</div></div></a>
-    <a href="https://creditkarma.com" target="_blank" rel="noopener" class="tool-card"><span class="tool-icon">📈</span><div class="tool-info"><div class="tool-name">Credit Karma</div><div class="tool-desc">Free credit monitoring to optimize your mortgage eligibility</div><div class="tool-commission">$8 per signup</div></div></a>
-    <a href="https://zillow.com/mortgages" target="_blank" rel="noopener" class="tool-card"><span class="tool-icon">🏠</span><div class="tool-info"><div class="tool-name">Zillow Mortgages</div><div class="tool-desc">Shop homes and rates together seamlessly</div><div class="tool-commission">$15 per lead</div></div></a>
-    <a href="https://nerdwallet.com/mortgages" target="_blank" rel="noopener" class="tool-card"><span class="tool-icon">💳</span><div class="tool-info"><div class="tool-name">NerdWallet</div><div class="tool-desc">Unbiased mortgage reviews and rate comparisons</div><div class="tool-commission">$12 per lead</div></div></div></a>
+    <a href="{{TOOL1_URL}}" target="_blank" rel="noopener" class="tool-card"><span class="tool-icon">{{TOOL1_ICON}}</span><div class="tool-info"><div class="tool-name">{{TOOL1_NAME}}</div><div class="tool-desc">{{TOOL1_DESC}}</div><div class="tool-commission">{{TOOL1_COMMISSION}}</div></div></a>
+    <a href="{{TOOL2_URL}}" target="_blank" rel="noopener" class="tool-card"><span class="tool-icon">{{TOOL2_ICON}}</span><div class="tool-info"><div class="tool-name">{{TOOL2_NAME}}</div><div class="tool-desc">{{TOOL2_DESC}}</div><div class="tool-commission">{{TOOL2_COMMISSION}}</div></div></a>
+    <a href="{{TOOL3_URL}}" target="_blank" rel="noopener" class="tool-card"><span class="tool-icon">{{TOOL3_ICON}}</span><div class="tool-info"><div class="tool-name">{{TOOL3_NAME}}</div><div class="tool-desc">{{TOOL3_DESC}}</div><div class="tool-commission">{{TOOL3_COMMISSION}}</div></div></a>
+    <a href="{{TOOL4_URL}}" target="_blank" rel="noopener" class="tool-card"><span class="tool-icon">{{TOOL4_ICON}}</span><div class="tool-info"><div class="tool-name">{{TOOL4_NAME}}</div><div class="tool-desc">{{TOOL4_DESC}}</div><div class="tool-commission">{{TOOL4_COMMISSION}}</div></div></a>
+    <a href="{{TOOL5_URL}}" target="_blank" rel="noopener" class="tool-card"><span class="tool-icon">{{TOOL5_ICON}}</span><div class="tool-info"><div class="tool-name">{{TOOL5_NAME}}</div><div class="tool-desc">{{TOOL5_DESC}}</div><div class="tool-commission">{{TOOL5_COMMISSION}}</div></div></a>
+    <a href="{{TOOL6_URL}}" target="_blank" rel="noopener" class="tool-card"><span class="tool-icon">{{TOOL6_ICON}}</span><div class="tool-info"><div class="tool-name">{{TOOL6_NAME}}</div><div class="tool-desc">{{TOOL6_DESC}}</div><div class="tool-commission">{{TOOL6_COMMISSION}}</div></div></div></a>
   </div>
 </section>
 
@@ -558,14 +558,14 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 <section class="sponsor-section">
   <div class="sponsor-inner">
     <div class="section-tag">ADVERTISE WITH US</div>
-    <h2 class="section-title">Reach 47,000+ Homeowners</h2>
-    <p class="section-sub">Reach engaged homebuyers and refinancers actively researching mortgage options</p>
+    <h2 class="section-title">Reach {{TARGET_AUDIENCE}}</h2>
+    <p class="section-sub">{{SPONSOR_SUB}}</p>
     <div class="sponsor-grid">
       <div class="sponsor-pkg">
         <div class="pkg-tier">Starter</div>
         <div class="pkg-name">Newsletter Mention</div>
         <div class="pkg-price">$299 <span>/ month</span></div>
-        <ul class="pkg-features"><li>Weekly newsletter mention</li><li>47K+ health subscribers</li><li>Click tracking report</li><li>Cancel anytime</li></ul>
+        <ul class="pkg-features"><li>Weekly newsletter mention</li><li>{{EMAIL_COUNT}}+ health subscribers</li><li>Click tracking report</li><li>Cancel anytime</li></ul>
         <a href="acquisition.html" class="btn-pkg outline">Get Started</a>
       </div>
       <div class="sponsor-pkg hot">
@@ -600,12 +600,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
     <div class="domain-copy">
       <div class="section-tag">DOMAIN ACQUISITION</div>
       <h2>Own myhome.mortgage Outright</h2>
-      <p>Premium .mortgage domain with exact-match 'myhome' branding. Perfect for personal mortgage advisory, fintech apps, or lender lead generation.</p>
+      <p>{{DOMAIN_DESC}}</p>
       <div class="domain-stats">
-        <div class="d-stat"><span class="n">$45,000</span><span class="l">Acquisition Price</span></div>
-        <div class="d-stat"><span class="n">$750/mo</span><span class="l">Monthly Lease</span></div>
-        <div class="d-stat"><span class="n">12K/mo</span><span class="l">Monthly Searches</span></div>
-        <div class="d-stat"><span class="n">8 yrs</span><span class="l">Domain Age</span></div>
+        <div class="d-stat"><span class="n">{{DOMAIN_PRICE}}</span><span class="l">Acquisition Price</span></div>
+        <div class="d-stat"><span class="n">{{DOMAIN_LEASE}}/mo</span><span class="l">Monthly Lease</span></div>
+        <div class="d-stat"><span class="n">{{DOMAIN_SEARCHES}}</span><span class="l">Monthly Searches</span></div>
+        <div class="d-stat"><span class="n">{{DOMAIN_AGE}}</span><span class="l">Domain Age</span></div>
       </div>
       <div class="domain-cta">
         <a href="acquisition.html" class="btn-domain">Make an Offer</a>
@@ -645,12 +645,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
     </div>
   </div>
   <div class="footer-legal-statements">
-    <p class="footer-copyright">© 2026 MyHome Mortgage (myhome.mortgage) · All rights reserved · ™ Trademark of Webworks Media Network</p>
+    <p class="footer-copyright">© 2026 {{SITE_NAME}} (myhome.mortgage) · All rights reserved · ™ Trademark of Webworks Media Network</p>
     <p class="footer-disclaimer"><strong>Affiliate Disclosure:</strong> This site contains affiliate links. We may earn a commission at no extra cost to you.</p>
-    <p class="footer-disclaimer"><strong>Financial Disclaimer:</strong> Content on MyHome Mortgage is for informational purposes only and does not constitute financial or investment advice. Always consult a qualified financial advisor before making investment decisions.</p>
+    <p class="footer-disclaimer"><strong>Financial Disclaimer:</strong> Content on {{SITE_NAME}} is for informational purposes only and does not constitute financial or investment advice. Always consult a qualified financial advisor before making investment decisions.</p>
     <p class="footer-disclaimer"><strong>Privacy Statement:</strong> We collect only information you voluntarily provide. We never sell your data. Unsubscribe anytime.</p>
     <p class="footer-disclaimer"><strong>Copyright & DMCA:</strong> All original content is protected. Report infringement to <a href="mailto:dmca@myhome.mortgage">dmca@myhome.mortgage</a>.</p>
-    <p class="footer-disclaimer">Your trusted partner for smarter mortgage decisions.</p>
+    <p class="footer-disclaimer">{{FOOTER_DESC}}</p>
   </div>
 </footer>
 
@@ -663,7 +663,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
   <div class="feedback-modal-inner">
     <button class="feedback-close" onclick="document.getElementById('feedbackModal').style.display='none'">✕</button>
     <h3>Send Feedback</h3>
-    <p>Help us improve MyHome Mortgage.</p>
+    <p>Help us improve {{SITE_NAME}}.</p>
     <form action="https://formspree.io/f/xvzdyoqr" method="POST" onsubmit="document.getElementById('feedbackModal').style.display='none'">
       <input type="hidden" name="_subject" value="Feedback: myhome.mortgage">
       <select name="feedback_type" style="width:100%;padding:0.6rem;margin-bottom:0.75rem;background:rgba(245,197,24,0.05);border:1px solid rgba(245,197,24,0.15);border-radius:6px;color:var(--text);font-size:0.85rem">
@@ -682,7 +682,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 <script>
 (function(){
   // Video ID pre-loaded at build time by automation script - no API key in HTML
-  var vid = 'YOUTUBE_PLACEHOLDER_1';
+  var vid = '{{YOUTUBE_VIDEO_ID}}';
   function loadYT(){
     var loading=document.getElementById('ytLoading');
     var player=document.getElementById('ytPlayer');
@@ -691,7 +691,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
       if(player)player.innerHTML='<iframe src="https://www.youtube.com/embed/'+vid+'?autoplay=1&mute=1&rel=0&loop=1&playlist='+vid+'&modestbranding=1" allow="autoplay;encrypted-media;picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:none;z-index:2"></iframe>';
     } else {
       // Fallback - show channel page
-      if(player)player.innerHTML='<iframe src="https://www.youtube.com/embed?listType=user_uploads&list=UCeJ-0a2SZGZDUXpIX-lCfRg&autoplay=1&mute=1" allow="autoplay;encrypted-media" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:none;z-index:2"></iframe>';
+      if(player)player.innerHTML='<iframe src="https://www.youtube.com/embed?listType=user_uploads&list={{YOUTUBE_CHANNEL_ID}}&autoplay=1&mute=1" allow="autoplay;encrypted-media" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:none;z-index:2"></iframe>';
     }
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',loadYT);}else{loadYT();}
